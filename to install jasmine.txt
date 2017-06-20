@@ -1,0 +1,33 @@
+C:\Working\GitRepo\AngularWithTS> cd .\node_modules\.bin
+C:\Working\GitRepo\AngularWithTS\node_modules\.bin> .\jasmine init
+C:\Working\GitRepo\AngularWithTS\node_modules\.bin> npm install @types/jasmine
+npm WARN angularwithts@1.0.0 No repository field.
+
++ @types/jasmine@2.5.51
+added 1 package in 2.737s
+C:\Working\GitRepo\AngularWithTS\node_modules\.bin> npm uninstall @types/jasmine
+npm WARN angularwithts@1.0.0 No repository field.
+
+removed 2 packages in 0.782s
+C:\Working\GitRepo\AngularWithTS\node_modules\.bin> cd..
+C:\Working\GitRepo\AngularWithTS\node_modules> cd..
+C:\Working\GitRepo\AngularWithTS> npm install @types/jasmine
+npm WARN angularwithts@1.0.0 No repository field.
+
+to install jasmine
+npm install --save-dev jasmine
+to initialize
+.\node_modules\.bin.\jasmine init
+to install typing
+npm install @types/jasmine
+
+In package json
+1: "^" mean install latest package not dependent on version mention
+2: "@" mean install package version as mention
+
+to test controller using jasmine
+1: load module
+2: create instance of controller
+3: call controller
+4: test controller
+
